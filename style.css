@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    line-height: 75px;
+    z-index: 1;
+    margin-left: 500px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+
+nav ul li a:hover{
+    color:blue
+}
+
+nav ul li .active{
+    color: #c0d96f
+}
+
+.image1{
+    margin-top: -460px;
+}
+
+.header{
+    margin-top: 150px;
+    font-size: 25px;
+    margin-left: -150px;
+}
+
+.articles ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.articles{
+    margin-top: 1200px;
+    font-size: 58px;
+}
+
+.article ul li a{
+    padding: 0px 32px;
+}
+
+.services{
+    text-align: center;
+}
+
+.services-images{
+    margin-left: 150px;
+}
+
+.ladies{
+    text-align: center;
+}
+
+.ladies-services{
+    text-align: center;
+}
+
+.about{
+    width: 700px;
+    height: 400px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.about1{
+    margin-top:-200px;
+    margin-left: 60px;
+}
+
+.about2{
+    margin-top: -650px;
+    margin-left: -200px;
+}
+
+.our-gallery{
+    margin-top: 450px;
+    text-align: center;
+}
+
+.gallery1{
+    margin-left: -100px;
+}
+
+.gallery4{
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+.gallery5{
+    margin-left: 480px;
+    margin-top: -1070px;
+}
+
+.gallery2{
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+.gallery3{
+    margin-left: 1020px;
+    margin-top: -1070px;
+}
+
+.gallery6{
+    margin-left: 1020px;
+    margin-top: 37px;
+}
+
+.what-they-say{
+    height: 800px;
+    width: 720px;
+    margin-left: 750px;
+    margin-top: 90px;
+}
+
+.client1{
+    margin-top: -830px;
+    margin-left: 20px;
+}
+
+.what-they-say-ladies{
+    height: 400px;
+    width: 720px;
+    margin-left: 750px;
+    margin-top: 270px;
+}
+
+.client2{
+    margin-top: -500px;
+}
+
+.book{
+    background-color: lightseagreen;
+    margin-top: 100px;
+    color: white;
+}
+
+.look{
+    height: 150px;
+    width: 230px;
+    margin-left: -100px;
+    margin-top: 150px;
+}
+
+.about-us{
+    height: 150px;
+    width: 230px;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+
+.about-us ul li{
+    list-style: none;
+}
+
+.service{
+    height: 150px;
+    width: 230px;
+    margin-left: 680px;
+    margin-top: -150px;
+}
+
+.service ul li{
+    list-style: none;
+}
+
+.support{
+    height: 150px;
+    width: 230px;
+    margin-left: 950px;
+    margin-top: -150px;
+}
+
+.support ul li{
+    list-style: none;
+}
+
+.download{
+    height: 150px;
+    width: 230px;
+    margin-left: 1230px;
+    margin-top: -150px;
+}
+
+.socials{
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.copyright{
+    margin-top: 80px;
+}
+
+.terms{
+    margin-left: 900px;
+    margin-top: -37px;
+}
+
+.privacy{
+    margin-left: 1100px;
+    margin-top: -42px;
+}
