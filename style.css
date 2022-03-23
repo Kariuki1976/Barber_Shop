@@ -2,10 +2,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: blac
+    
 }
 body {
     overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
 
+    
+}
+
+.text-color {
+    color: white;
 }
 nav{
     line-height: 75px;
@@ -27,11 +35,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:blue
+    color: #FFD700;
 }
 
 nav ul li .active{
-    color: #c0d96f
+    color: #FFD700;
 }
 
 /* * {
@@ -247,7 +255,6 @@ nav ul li .active{
     text-align: center;
     font-size:px;
     font-family: 'Times New Roman', Times, serif;
-    
 
 }
 
@@ -260,6 +267,8 @@ nav ul li .active{
 .barber-icon {
     height: 100px;
     width: 100px;
+    color: ;
+   
 }
 
 #booked-date{
@@ -268,4 +277,10 @@ nav ul li .active{
 
 #book-date{
     display: none;
+}
+
+.review-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
