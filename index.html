@@ -9,7 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div>
@@ -26,7 +26,10 @@
             <li class="nav-item">
               <a href="#" class="nav-link">REVIEWS</a>
             </li>
-            <button type="button" class="btn btn-primary" >BOOK HERE</button>
+            <button type="submit" id='booking' class="btn btn-primary" >BOOK HERE</button>
+            <label for="booking-date"></label><br>
+            <input type="datetime-local" id="booked-date" name="booked-day">
+            <!-- <button type="submit" id='book-date' class="btn btn-primary" >BOOK DATE</button> -->
         </ul>
     </div>
     <div class='container-fluid'>
@@ -71,48 +74,139 @@
         </div>
     </div>
 <!-- Services section -->
-        <div class="container">
-                <h3 style="text-align: center; padding: 30px;">OUR SERVICES</h3>
-                <h3>BARBER SERVICES</h3>
-            
-            <!-- <div class="services-images"> -->
-            <div class="container">
-                <div class=row>
-                    <div class="col">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1234/1234021.png?w=740" alt="Picture of a haircut" class="barber-icon">
-                        <p>
-                            
-                        </p>
-                    </div>
-                    <div class="col">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1052/1052968.png?w=740" alt="picture of beard trim" class="barber-icon">
-                    </div>
-                    <div class="col">
-                        <img src="styling.jpg" alt="Picture of styling products"class="barber-icon">
-                    </div>
-                </div>
-            </div>
-        
-            <div class="">
-                <h3>SALON SERVICES</h3>
-            </div>
+<div class="container">
+    <h3 style="text-align: center; padding: 30px;">OUR SERVICES</h3>
+    <h3>BARBER SERVICES</h3>
+    <P> The services that we give out are professional by friendly experienced barbers that will always make you feel comfortable.
+    </P>
+
+<!-- <div class="services-images"> -->
+<div class="container">
+    <div class=row>
+        <div class="col">
+            <img src="https://cdn-icons-png.flaticon.com/512/1234/1234021.png?w=740" alt="Picture of a haircut" class="barber-icon">
+            <h6>HAIR CUTS</h6>
+            <p>
+               We give hair cuts that live you the most satisfied and have you coming back for more. 
+            </p>
+            <h6>Price: 1200/=</h6>
         </div>
-<!-- Salon services section -->
-            <div class="container">
-                <div class=row>
-                    <div class="col">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1234/1234024.png?w=740" alt="hair dryer" class="barber-icon">
-                    </div>
-                    <div class="col">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1250/1250690.png?w=740" alt="woman hair icon" class="barber-icon">
-                    </div>
-                    <div class="col">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1097/1097321.png?w=740" alt="Nail and file"class="barber-icon">
-                    </div>
-                </div>
+        <div class="col">
+            <img src="https://cdn-icons-png.flaticon.com/512/1052/1052968.png?w=740" alt="picture of beard trim" class="barber-icon">
+            <h6> BEARD TRIM</h6>
+            <P>
+              We always keep your beards well groomed and looking acttractive as always
+            </P>
+            <h6>Price: 500/=</h6>
+        </div>
+        <div class="col">
+            <img src="styling.jpg" alt="Picture of styling products"class="barber-icon">
+            <h6>HAIR GROOMING</h6>
+            <p>
+            We groom hair for your big wedding day and other big days ogf your life.
+            </p>
+            <h6>Price: 1500/=</h6>
             </div>
-            <!-- I have commented out the gallery. Can we make it slideable or give it a hoverable effect? -->
-            <!-- <div>
+    </div>
+</div>
+
+<div style="padding: 5px;">
+    <h3>SALON SERVICES</h3>
+    <P>
+      We have a passionate team of professional hair dressers, stylists and nail art specialists who will attend to all your hair and nail needs. 
+     </P>
+</div>
+</div>
+<!-- Salon services section -->
+<div class="container">
+    <div class=row>
+        <div class="col">
+            <img src="https://cdn-icons-png.flaticon.com/512/1234/1234024.png?w=740" alt="hair dryer" class="barber-icon">
+            <h6>HAIR DRESSING</h6>
+            <p>
+                We offer non styling services such as hair washing, scalp massages aong other hair dressing services. 
+            </p>
+            <h6>Price: From 400/=</h6>
+        </div>
+        <div class="col">
+            <img src="https://cdn-icons-png.flaticon.com/512/1250/1250690.png?w=740" alt="woman hair icon" class="barber-icon">
+            <h6>HAIR STYLING</h6>
+            <p>
+                We offer a broad range of hair styling for a dynamic male and female hair 
+            </p>
+            <h6>Price: Ranging from 2000/=</h6>
+        </div>
+        <div class="col">
+            <img src="https://cdn-icons-png.flaticon.com/512/1097/1097321.png?w=740" alt="Nail and file"class="barber-icon">
+            <h6>MANICURE AND PEDICURE</h6>
+            <p>
+                We offer the best nail art that money can buy.
+            </p>
+            <h6>Price: 1000/=</h6>
+        </div>
+    </div>
+</div>
+<h1 style="text-align: center;">REVIEWS</h1>
+<div class="row">
+    <div class="col">
+        <img src="review1.jpeg" alt="rebourne" style="height: 200px;width: 200px;">
+        <h2>Slim Rebourne</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    <div class="col">
+        <img src="review3.jpeg" alt="rebourne" style="height: 200px;width: 200px;">
+        <h2>Mylie Minaj</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="col">
+        <img src="review2.jpeg" alt="rebourne" style="height: 200px;width: 200px;">
+        <h2>Bien Johnson</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <img src="review6.jpeg" alt="rebourne" style="height: 200px;">
+        <h2>Cain Chen</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="col">
+        <img src="review5.jpeg" alt="rebourne" style="height: 200px;">
+        <h2>Grace Winfrey</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    <div class="col">
+        <img src="review7.jpeg" alt="rebourne" style="height: 200px;">
+        <h2>Oscar Scott</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+</div>
+<!-- I have commented out the gallery. Can we make it slideable or give it a hoverable effect? -->
+<!-- <div>
                 <h3>OUR GALLERY</h3>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -160,6 +254,10 @@
             <div class="gallery6">
                 <img src="Gallery6.webp" alt="" style="width: 500px; height: 494px;">
             </div> -->
+
+
+
+<!--             
             <div class="what-they-say">
                 <h4>WHAT THEY SAY</h4>
                 <h1>What our Handsome <br> customer says</h1>
@@ -227,7 +325,11 @@
             </div>
             <div class="privacy">
                 <p>Privacy Policy</p>
-            </div>
+            </div> -->
+
+
+
+            <script src="js/index.js"></script>
        
    
 </body>
