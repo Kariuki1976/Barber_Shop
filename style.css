@@ -1,46 +1,46 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     background-color: blac
-    
 }
+
 body {
     overflow-x: hidden;
     font-family: 'Times New Roman', Times, serif;
-
-    
 }
 
 .text-color {
     color: white;
 }
-nav{
+
+nav {
     line-height: 75px;
     z-index: 1;
     margin-left: 500px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
 }
 
-nav ul li a{
-    color:black;
+nav ul li a {
+    color: black;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
     padding: 0px 32px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #FFD700;
 }
 
-nav ul li .active{
+nav ul li .active {
     color: #FFD700;
 }
+
 
 /* * {
     margin: 0;
@@ -51,184 +51,182 @@ nav ul li .active{
     color: orange;
 }
 
-.header{
+.header {
     margin-top: 150px;
     font-size: 25px;
     margin-left: -150px;
 }
 
-.articles ul li{
+.articles ul li {
     list-style: none;
     display: inline-block;
 }
 
-.articles{
-    
+.articles {
     font-size: 58px;
 }
 
-.article ul li a{
+.article ul li a {
     padding: 0px 32px;
 }
 
-.services{
+.services {
     text-align: center;
 }
 
-.services-images{
+.services-images {
     margin-left: 150px;
 }
 
-.ladies{
+.ladies {
     text-align: center;
 }
 
-.ladies-services{
+.ladies-services {
     text-align: center;
 }
 
-.about{
+.about {
     width: 700px;
     height: 400px;
     margin-left: 700px;
     margin-top: 50px;
 }
 
-.about1{
-    margin-top:-200px;
+.about1 {
+    margin-top: -200px;
     margin-left: 60px;
 }
 
-.about2{
+.about2 {
     margin-top: -650px;
     margin-left: -200px;
 }
 
-.our-gallery{
-    
+.our-gallery {
     text-align: center;
 }
 
-.gallery1{
+.gallery1 {
     margin-left: -100px;
 }
 
-.gallery4{
+.gallery4 {
     margin-top: 20px;
     margin-left: -100px;
 }
 
-.gallery5{
+.gallery5 {
     margin-left: 480px;
     margin-top: -1070px;
 }
 
-.gallery2{
+.gallery2 {
     margin-left: 480px;
     margin-top: 30px;
 }
 
-.gallery3{
+.gallery3 {
     margin-left: 1020px;
     margin-top: -1070px;
 }
 
-.gallery6{
+.gallery6 {
     margin-left: 1020px;
     margin-top: 37px;
 }
 
-.what-they-say{
+.what-they-say {
     height: 800px;
     width: 720px;
     margin-left: 750px;
     margin-top: 90px;
 }
 
-.client1{
+.client1 {
     margin-top: -830px;
     margin-left: 20px;
 }
 
-.what-they-say-ladies{
+.what-they-say-ladies {
     height: 400px;
     width: 720px;
     margin-left: 750px;
     margin-top: 270px;
 }
 
-.client2{
+.client2 {
     margin-top: -500px;
 }
 
-.book{
+.book {
     background-color: lightseagreen;
     margin-top: 100px;
     color: white;
 }
 
-.look{
+.look {
     height: 150px;
     width: 230px;
     margin-left: -100px;
     margin-top: 150px;
 }
 
-.about-us{
+.about-us {
     height: 150px;
     width: 230px;
     margin-left: 400px;
     margin-top: -150px;
 }
 
-.about-us ul li{
+.about-us ul li {
     list-style: none;
 }
 
-.service{
+.service {
     height: 150px;
     width: 230px;
     margin-left: 680px;
     margin-top: -150px;
 }
 
-.service ul li{
+.service ul li {
     list-style: none;
 }
 
-.support{
+.support {
     height: 150px;
     width: 230px;
     margin-left: 950px;
     margin-top: -150px;
 }
 
-.support ul li{
+.support ul li {
     list-style: none;
 }
 
-.download{
+.download {
     height: 150px;
     width: 230px;
     margin-left: 1230px;
     margin-top: -150px;
 }
 
-.socials{
+.socials {
     margin-left: -100px;
     margin-top: 50px;
 }
 
-.copyright{
+.copyright {
     margin-top: 80px;
 }
 
-.terms{
+.terms {
     margin-left: 900px;
     margin-top: -37px;
 }
 
-.privacy{
+.privacy {
     margin-left: 1100px;
     margin-top: -42px;
 }
@@ -236,26 +234,26 @@ nav ul li .active{
 .and {
     text-align: center;
 }
-.barber{
+
+.barber {
     display: flex;
     flex-direction: row;
-
 }
-.top{
+
+.top {
     margin-top: 48px;
     margin-right: 12px;
 }
 
-.salon{
+.salon {
     margin-top: 48px;
     margin-left: -65px;
 }
 
 .logo-name {
     text-align: center;
-    font-size:px;
+    font-size: px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 .home-img {
@@ -268,14 +266,13 @@ nav ul li .active{
     height: 100px;
     width: 100px;
     color: ;
-   
 }
 
-#booked-date{
+#booked-date {
     display: none;
 }
 
-#book-date{
+#book-date {
     display: none;
 }
 
@@ -283,4 +280,73 @@ nav ul li .active{
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+
+/* contact us */
+
+section {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+#subject {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid gold;
+    margin-left: 3rem;
+}
+
+#name {
+    background-color: transparent;
+    border: 1px solid gold;
+    width: 35%;
+    margin-right: 4rem;
+}
+
+#email {
+    background-color: transparent;
+    border: 1px solid gold;
+    width: 30%;
+}
+
+::placeholder {
+    color: gold;
+}
+
+#name {
+    color: gold;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#email {
+    color: gold;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#subject {
+    color: gold;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form {
+    position: relative;
+    top: 12rem;
+}
+
+section h1 {
+    font-weight: bold;
+    top: 3rem;
+    position: relative;
+}
+
+#submit {
+    color: gold;
+    background: gray;
 }
